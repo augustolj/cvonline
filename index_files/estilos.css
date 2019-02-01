@@ -1,0 +1,175 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-family: 'Major Mono Display', monospace;
+  text-shadow: -1% 0 lightgrey, 0 1% lightgrey, 1% 0 lightgrey, 0 -1% lightgrey;
+  font-size: 10vh;
+}
+
+h2 {
+  font-family: 'Teko', sans-serif;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 6vh;
+}
+
+h3 {
+  font-family: 'Teko', sans-serif;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  overflow: visible;
+  margin: auto;
+}
+
+header {
+  height: 70%;
+  background-image: url(https://latinta.com.ar/wp-content/uploads/2016/09/Spinetta_Web.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.nombre {
+  width: 30%;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.envuelve-bloque {
+  float: left;
+  width: 25%;
+  height: 30%;
+  overflow: hidden;
+  position: sticky;
+}
+
+.bloque {
+  height: auto;
+  width: auto;
+  margin: 0.1%;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+  text-decoration: none;
+  transition: all 0.5s ease;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding-top: 10%;
+}
+
+.bloque img {
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.bloque:hover {
+ -webkit-transform: scale(1.2);
+ transform: scale(1.1);
+ }
+
+.columna-derecha{
+  width: 70%;
+  float: left;
+}
+
+nav {
+  width: 20%;
+  text-align: center;
+  margin-top: 1%;
+  margin-right: 1%;
+  margin-left: 8%;
+  float: left;
+  position: sticky;
+}
+
+nav img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border-width: 1px;
+  border-style: solid;
+}
+
+nav ul {
+  font-family: 'Teko', sans-serif;
+	font-size: 18px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav li {
+  width: 100%;
+  background-color: lightgrey;
+  margin-top: 3px;
+  border-radius: 10px;
+}
+
+.musica {
+  background-image: url(https://irp-cdn.multiscreensite.com/2d47780b/dms3rep/multi/mobile/179d5a0e9d5e40f5a81236056d5201bb-800x533.dm.edit_fsk1qR.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.filmografia {
+  background-image: url(https://jaibofilms.com/wp-content/uploads/2017/03/film-cans-stacked.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.escritos {
+  background-image: url(https://video-images.vice.com/_uncategorized/1511546399215-pescado-4.jpeg);
+  background-size: cover;
+  background-position: top;
+}
+
+.pinturas {
+  background-image: url(https://video-images.vice.com/articles/5a1858b51e66b64241695076/lede/1511546750893-Captura-de-pantalla-2017-11-24-a-las-120538.png);
+  background-size: cover;
+  background-position: top;
+}
+
+.contenido {
+  margin-top: 1%;
+  padding: 2%;
+  float: left;
+  width: 60%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.flex {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.cuadro img {
+  margin: 10px;
+  width: 200px;
+  height: auto;
+}
